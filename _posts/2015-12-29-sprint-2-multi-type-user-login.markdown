@@ -17,18 +17,53 @@ categories: version
         Check if laravel provide built in
         multi login functionality
         <blockquote>
-            use laravel Authorization
+            use laravel Authorization -> ACL
         </blockquote>
+    </div>
+</div>
+
+<div class="panel panel-success">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+            Implement User ACL (Access Control List) System
+        </h4>
+    </div>
+    <div class="panel-body">
+        Start implementing multi login system
+    </div>
+</div>
+
+<div class="panel panel-success">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+            Seed the database, Assign user as Admin
+        </h4>
+    </div>
+    <div class="panel-body">
+        dwijpr@gmail.com [role: admin (permissions: test)]
     </div>
 </div>
 
 <div class="panel panel-primary">
     <div class="panel-heading">
         <h4 class="panel-title">
-            Implement Multi Login System
+            Create Admin Dashboard
         </h4>
     </div>
     <div class="panel-body">
-        Start implementing multi login system
+        login-page -> menu dashboard (admin)
+        <br>
+        Template using getbootstrap
+    </div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+            Admin: User Management Functionality
+        </h4>
+    </div>
+    <div class="panel-body">
+        CRUD users
     </div>
 </div>
