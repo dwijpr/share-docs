@@ -2,6 +2,25 @@
 layout: default
 ---
 
+<style>
+  .post-list > li,  .post-list > li > h2{
+    margin: 4px 0;
+  }
+</style>
+
+<div class="home">
+  <h1 class="page-heading">Index</h1>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+<!--
 <div class="home">
 
   <h1 class="page-heading">Posts</h1>
@@ -21,3 +40,4 @@ layout: default
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
+-->
