@@ -68,6 +68,28 @@ categories: version
 
     redirect -> login-page
 
+- Pnotify
+
+    - error credentials user
+        - type: error
+        - title: Error Credentials
+        - message: Unknown username or password
+
+    - success logged in
+        - type: success
+        - title: Successfully Login
+        - message: Hi {user}, Welcome!
+
+    - logged out
+        - type: info
+        - title: Bye
+        - message: Don't forget to come back
+
+    - Unauthorized access
+        - type: warning
+        - title: Unauthorized Access
+        - message: Please login first
+
 
 #### Pages:
 - /
