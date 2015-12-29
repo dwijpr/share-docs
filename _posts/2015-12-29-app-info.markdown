@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "App Info"
+date:   2015-12-29 11:59:59 +0700
+categories: version
+---
+
+- Programming Language: 
+    - name: PHP
+    - version: 5.5.9-1ubuntu4.14
+- Framework: 
+    - name: Laravel
+    - version: 5.2.5
+- Database: mysql  Ver 14.14 Distrib 5.6.27
+- Server:
+    - name: nginx + php5-fpm
+    - version: 1.4.6 (Ubuntu)

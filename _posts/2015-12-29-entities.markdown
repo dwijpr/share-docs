@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Entities"
+date:   2015-12-29 11:59:58 +0700
+categories: version
+---
+
+- User
+    - id ~ increments
+    - name ~ string
+    - email ~ string - unique
+    - password ~ string|60
+    - rememberToken
+    - timestamps
+    - softDeletes
+- Password_reset
+    - email ~ string - index
+    - token ~ string - index
+    - timestamp ~ created_at

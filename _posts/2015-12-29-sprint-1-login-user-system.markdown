@@ -1,54 +1,11 @@
 ---
 layout: post
-title:  "ShareApp Initial version 0.0.1"
-date:   2015-12-29 06:24:52 +0700
+title:  "Sprint I - Login User System"
+date:   2015-12-29 00:00:00 +0700
 categories: version
 ---
 
-## ShareApp
-
-
-
-### App Info
-- Programming Language: 
-    - name: PHP
-    - version: 5.5.9-1ubuntu4.14
-- Framework: 
-    - name: Laravel
-    - version: 5.2.5
-- Database: mysql  Ver 14.14 Distrib 5.6.27
-- Server:
-    - name: nginx + php5-fpm
-    - version: 1.4.6 (Ubuntu)
-
-
-
-### System Design
-
-
-#### Entities:
-- User
-    - id ~ increments
-    - name ~ string
-    - email ~ string - unique
-    - password ~ string|60
-    - rememberToken
-    - timestamps
-    - softDeletes
-- Password_reset
-    - email ~ string - index
-    - token ~ string - index
-    - timestamp ~ created_at
-
-#### Pages:
-- /
-- /register
-- /home
-- /login
-- /password/reset
-- /password/reset/{token}
-
-#### Stories:
+## Stories:
 
 <div class="panel panel-success">
     <div class="panel-heading">
@@ -61,7 +18,7 @@ categories: version
     </div>
 </div>
 
-<div class="panel panel-primary">
+<div class="panel panel-success">
     <div class="panel-heading">
         <h4 class="panel-title">
             User Logout
@@ -72,7 +29,7 @@ categories: version
     </div>
 </div>
 
-<div class="panel panel-default">
+<div class="panel panel-success">
     <div class="panel-heading">
         <h4 class="panel-title">
             User Login
@@ -83,7 +40,7 @@ categories: version
     </div>
 </div>
 
-<div class="panel panel-default">
+<div class="panel panel-success">
     <div class="panel-heading">
         <h4 class="panel-title">
             User Password Reset
@@ -96,7 +53,7 @@ categories: version
     </div>
 </div>
     
-<div class="panel panel-default">
+<div class="panel panel-success">
     <div class="panel-heading">
         <h4 class="panel-title">
             Landing Page Access Prevention after Login
@@ -107,7 +64,7 @@ categories: version
     </div>
 </div>
 
-<div class="panel panel-default">
+<div class="panel panel-success">
     <div class="panel-heading">
         <h4 class="panel-title">
             Prevent auth pages
@@ -118,7 +75,7 @@ categories: version
     </div>
 </div>
 
-<div class="panel panel-default">
+<div class="panel panel-success">
     <div class="panel-heading">
         <h4 class="panel-title">
             Pnotify
@@ -148,13 +105,3 @@ categories: version
 </pre>
     </div>
 </div>
-
-<div class="panel panel-default">
-    <div class="panel-heading">
-        <h4 class="panel-title">
-        </h4>
-    </div>
-    <div class="panel-body">
-    </div>
-</div>
-
