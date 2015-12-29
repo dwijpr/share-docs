@@ -40,36 +40,92 @@ categories: version
     - token ~ string - index
     - timestamp ~ created_at
 
+#### Pages:
+- /
+- /register
+- /home
+- /login
+- /password/reset
+- /password/reset/{token}
 
 #### Stories:
-- User Register
 
-    landing-page -> register -> user-home
+<div class="panel panel-success">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+            User Register
+        </h4>
+    </div>
+    <div class="panel-body">
+        landing-page -> register -> user-home
+    </div>
+</div>
 
-- User Logout
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+            User Logout
+        </h4>
+    </div>
+    <div class="panel-body">
+        user-home -> logout -> landing-page
+    </div>
+</div>
 
-    user-home -> logout -> landing-page
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+            User Login
+        </h4>
+    </div>
+    <div class="panel-body">
+        landing-page -> login-page -> user-home
+    </div>
+</div>
 
-- User Login
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+            User Password Reset
+        </h4>
+    </div>
+    <div class="panel-body">
+        landing-page -> login-page -> password-reset
+        <br>
+        user-get-email -> password-reset-token -> user-home
+    </div>
+</div>
     
-    landing-page -> login-page -> user-home
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+            Landing Page Access Prevention after Login
+        </h4>
+    </div>
+    <div class="panel-body">
+        landing-page -(redirect)-> user-home
+    </div>
+</div>
 
-- User Password Reset
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+            Prevent auth pages
+        </h4>
+    </div>
+    <div class="panel-body">
+        redirect -> login-page
+    </div>
+</div>
 
-    landing-page -> login-page -> password-reset
-
-    user-get-email -> password-reset-token -> user-home
-
-- Landing Page Access Prevention after Login
-
-    landing-page -(redirect)-> user-home
-
-- Prevent auth pages
-
-    redirect -> login-page
-
-- Pnotify
-
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+            Pnotify
+        </h4>
+    </div>
+    <div class="panel-body">
+<pre>
     - error credentials user
         - type: error
         - title: Error Credentials
@@ -89,12 +145,16 @@ categories: version
         - type: warning
         - title: Unauthorized Access
         - message: Please login first
+</pre>
+    </div>
+</div>
 
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+        </h4>
+    </div>
+    <div class="panel-body">
+    </div>
+</div>
 
-#### Pages:
-- /
-- /register
-- /home
-- /login
-- /password/reset
-- /password/reset/{token}
