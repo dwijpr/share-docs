@@ -127,18 +127,29 @@ categories: version
     </div>
 </div>
 
-<div class="panel panel-primary">
+<div class="panel panel-success">
     <div class="panel-heading">
         <h4 class="panel-title">
-            Layout dashboard - Home link
+            Tweak Layout dashboard
         </h4>
     </div>
     <div class="panel-body">
-        Place it at the left nav
+        Home link - Place it at the left nav
     </div>
 </div>
 
-<div class="panel panel-default">
+<div class="panel panel-success">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+            Admin: User Management Functionality
+        </h4>
+    </div>
+    <div class="panel-body">
+        CRUD users
+    </div>
+</div>
+
+<div class="panel panel-primary">
     <div class="panel-heading">
         <h4 class="panel-title">
             Admin: User Management Functionality
