@@ -66,7 +66,7 @@ categories: version
     </div>
 </div>
 
-<div class="panel panel-primary">
+<div class="panel panel-success">
     <div class="panel-heading">
         <h4 class="panel-title">
             Create Admin Dashboard
@@ -76,7 +76,45 @@ categories: version
         login-page -> menu dashboard (admin)
         <br>
         Template using getbootstrap
-        <div class="panel panel-primary">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                Research Elixir Helper
+                </h4>
+            </div>
+            <div class="panel-body">
+                elixir('something')
+                <blockquote>
+                    Shorter using laravelcollective
+                </blockquote>
+            </div>
+        </div>
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    Include twbs bootstrap in Advance
+                </h4>
+            </div>
+            <div class="panel-body">
+                <a 
+                    href="https://bhavyanshu.me/tutorials/styling-laravel-5-based-app-with-twitter-bootstrap/08/24/2015/"
+                    target="_blank" 
+                    >
+                    source
+                </a>
+            </div>
+        </div>
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    Research multi extends blade
+                </h4>
+            </div>
+            <div class="panel-body">
+                So can use, base bootstrap with themes
+            </div>
+        </div>
+        <div class="panel panel-success">
             <div class="panel-heading">
                 <h4 class="panel-title">
                     Designing Dashboard
@@ -86,6 +124,17 @@ categories: version
                 Template using getbootstrap
             </div>
         </div>
+    </div>
+</div>
+
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+            Layout dashboard - Home link
+        </h4>
+    </div>
+    <div class="panel-body">
+        Place it at the left nav
     </div>
 </div>
 
