@@ -148,14 +148,3 @@ categories: version
         CRUD users
     </div>
 </div>
-
-<div class="panel panel-primary">
-    <div class="panel-heading">
-        <h4 class="panel-title">
-            Admin: User Management Functionality
-        </h4>
-    </div>
-    <div class="panel-body">
-        CRUD users
-    </div>
-</div>
