@@ -44,6 +44,28 @@ categories: version
     </div>
 </div>
 
+<div class="panel panel-success">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+            Create Errors Page
+        </h4>
+    </div>
+    <div class="panel-body">
+        pages for code: 404, 403, 503
+    </div>
+</div>
+
+<div class="panel panel-success">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+            ENV Application Name
+        </h4>
+    </div>
+    <div class="panel-body">
+        Place it in the needed areas
+    </div>
+</div>
+
 <div class="panel panel-primary">
     <div class="panel-heading">
         <h4 class="panel-title">
@@ -54,6 +76,16 @@ categories: version
         login-page -> menu dashboard (admin)
         <br>
         Template using getbootstrap
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    Designing Dashboard
+                </h4>
+            </div>
+            <div class="panel-body">
+                Template using getbootstrap
+            </div>
+        </div>
     </div>
 </div>
 
